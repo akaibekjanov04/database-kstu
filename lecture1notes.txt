@@ -1,0 +1,34 @@
+PostgreSQL — это объектно-реляционная система управления базами данных (СУБД), поддерживающая SQL и расширенные функции работы с данными.
+
+Особенности PostgreSQL:
+
+Открытый исходный код.
+
+
+Расширяемость: возможность добавления новых типов данных, операторов и функций.
+
+Поддержка JSON, XML и NoSQL-функций.
+
+Репликация и масштабируемость.
+
+1)
+
+//Создание БД
+
+CREATE DATABASE mydatabase
+
+//Создание таблицы
+
+CREATE TABLE users(название моей таблицы) (
+    id  PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+);
+
+// добавление 
+
+INSERT INTO users (name, email) VALUES ('Akai','akai@mail.ru')
+
+//выбор данных
+
+SELECT * FROM users;
